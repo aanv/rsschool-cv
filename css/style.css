@@ -144,6 +144,14 @@ code {
   padding: 0;
 }
 
+.js-operator {
+  color: rgb(118, 173, 255);
+}
+
+.js-num {
+  color: rgb(127, 255, 148);
+}
+
 footer {
   display: flex;
   padding: 20px;
