@@ -1,0 +1,152 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta http-equiv="x-ua-compatible" content="ie=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>rsschool-cv</title>
+  <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;700;900&display=swap">
+  <link rel="stylesheet" href="./css/style.css">
+</head>
+<body>
+  <div class="main-container">
+    <header>
+      <img src="./images/portrait_1.png" alt="portrait" width="250" height="250">
+      <h1>Anton Volkau</h1>
+    </header>
+
+    <div class="columns">
+      <div class="column-left">
+        <main>
+          <section class="contacts">
+            <h2>Contact information</h2>
+            <ul>
+              <li>
+                <img src="./icons/007-placeholder.svg" alt="Icon-Location" width="40" height="40">
+                <p>Minsk, Belarus</p>  
+              </li>
+              <li>
+                <img src="./icons/010-phone-book.svg" alt="Icon-Phone" width="40" height="40">
+                <p>+375 29 5678017</p>  
+              </li>
+              <li>
+                <img src="./icons/034-email.svg" alt="Icon-Email" width="40" height="40">
+                <p>volkauanton@gmail.com</p> 
+              </li>
+            </ul>
+          </section>
+
+          <section class="skills">
+            <h2>Skills</h2>
+            <ul>
+              <li>SQL (Amazon Athena, Mode Analytics)</li>
+              <li>Git</li>
+              <li>Google Apps Script (Basic)</li>
+              <li>HTML (Basic)</li>
+              <li>JS (Basic)</li>
+              <li>Adobe Photoshop, Adobe Premiere</li>
+            </ul>
+          </section>
+
+          <section class="languages">
+            <h2>Languages</h2>
+            <ul>
+              <li>
+                <p class="language">Russian</p>
+                <p>Native</p>
+              </li>
+              <li>
+                <p class="language">Belarusian</p>
+                <p>Native</p>
+              </li>
+              <li>
+                <p class="language">English</p>
+                <p>B1-B2</p>
+                <p class="note">Communication in English with colleagues from all over the world (USA, India, Philippines, China).</p>
+              </li>
+            </ul>
+          </section>
+
+          <section class="education">
+            <h2>Education</h2>
+            <p><strong>Belarusian State Academy of Arts</strong></p>
+            <p>2012 <br> Bachelor degree in Cinematography (Director of photography)</p>
+            <p><strong>IT Management Online</strong></p>
+            <p> 2021 <br> Project Management course <a href="https://it-manager.online/"><br>it-manager.online</a> </p>
+          </section>
+        </main>
+      </div>
+
+      <aside class="column-right">
+        <section class="about-me">
+          <div class="sub-header">
+            <img src="./icons/047-user.svg" alt="Icon-User" width="40" height="40">
+            <h3>About Me</h3>
+          </div>
+          <p>I am interested in learning programming to improve competence in my current position, as well as to get a developer position.</p>
+          <p>At school, I always got the highest marks in mathematics and physics. But then I decided to take up creativity and entered the Academy of Arts, against what I'd been told by teachers and parents. I graduated as a Cinematographer. Then over the course of 8 years I managed to work as a videographer, photography teacher, video editor. I filmed weddings, concerts, organized photo sessions, studio shooting, post-processing, photo retouching, atmospheric sound recording... until fate let me get a job in a big international IT startup.</p>
+          <p>While I was climbing the corporate ladder there, I gradually became involved in teamleading, requirements development, project management, analytics. To speed up the work, I had to learn the basics of scripting. From that moment I fell in love with the magic when your code fills the cells of the tables, changes properties and displays something on the screen.</p>
+        </section>
+
+        <section class="experience">
+          <div class="sub-header">
+            <img src="./icons/046-group.svg" alt="Icon-Group" width="40" height="40">
+            <h3>Experience</h3>
+          </div>
+          <table>
+          <tr>
+            <th>When</th>
+            <th>Company</th>
+            <th>Role</th>
+          </tr>
+          <tr class="table-even-row">
+            <td>2011</td>
+            <td>ZAO "Videofilm"</td>
+            <td>Videographer / Cameraman.</td>
+          </tr>
+          <tr>
+            <td>2011 — 2019</td>
+            <td>Freelance / Contract work</td>
+            <td>Videographer, video editor, photographer. Production of video materials for TV projects.</td>
+          </tr>
+          <tr class="table-even-row">
+            <td>2012 — 2014</td>
+            <td>Educational Institution "Minsk State Palace of Children and Youth"</td>
+            <td>Photography teacher.</td>
+          </tr>
+          <tr>
+            <td>2018 - present</td>
+            <td>Mapbox</td>
+            <td>Data Service Specialist. Data enrichment, data analysis, teamleading, project manajement, development of requirements.</td>
+          </tr>
+          </table>
+        </section>
+
+        <section class="code-example">
+          <div class="sub-header">
+            <img src="./icons/002-left-alignment.svg" alt="Icon-Text" width="40" height="40">
+            <h3>Code example</h3>
+          </div>
+          <p>The below function returns the middle characters of a given word:</p>
+          <pre>
+            <code>
+function getMiddle(s) {
+  return s.substr(Math.ceil(s.length / 2 - 1), s.length % 2 === 0 ? 2 : 1);
+}</code>
+          </pre>
+        </section>
+      </aside>
+    </div>
+    <footer>
+      <a href="https://github.com/aanv" class="github-link">
+        <img src="./icons/github.svg" alt="Icon-Github" width="50" height="50">
+      </a>
+      <a href="https://rs.school/js/">
+        <img src="./icons/rs_school_js.svg" alt="Icon-RSSchool" width="100" height="50">
+      </a>
+      <div>Icons by <a href="https://www.flaticon.com/ru/authors/chanut" title="Chanut">Chanut</a> from <a href="https://www.flaticon.com/ru/" title="Flaticon">www.flaticon.com</a></div>
+      <p>2021</p>
+    </footer>
+  </div>
+</body>
+</html>

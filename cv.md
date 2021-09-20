@@ -57,4 +57,4 @@ When | Company | Role
   - Native
 - **English**
   - B1-B2 
-    - Working in an international company, I communicate in English with colleagues from all over the world (USA, India, Philippines, China).
+  - Working in an international company, I communicate in English with colleagues from all over the world (USA, India, Philippines, China).
