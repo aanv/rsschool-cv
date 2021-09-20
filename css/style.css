@@ -1,0 +1,170 @@
+:root {
+  --dark-gray-color: #353535;
+  --gray-color: #f5f5f5;
+  --yellow-color: #ffffff;
+  font-family: "Poppins", sans-serif;
+  color: var(--dark-gray-color);
+}
+
+body {
+  box-sizing: border-box;
+  background-color: #4b3155;
+}
+
+header {
+  background-color: var(--gray-color);
+}
+
+header img {
+  vertical-align: middle;
+  padding: 20px;
+}
+
+header h1 {
+  display: inline-block;
+  padding-left: 190px;
+  vertical-align: middle;
+  margin: auto;
+  font-size: 240%; 
+}
+
+.main-container {
+  margin: 20px auto;
+  width: 1024px;
+  background-color: #ffffff;
+  box-shadow: 20px 20px 90px -1px rgba(0, 0, 0, 0.23);
+}
+
+.columns {
+  display: flex;
+}
+
+.column-left {
+  margin: 0;
+  padding: 0;
+  border: 0;
+  color: var(--dark-gray-color);
+}
+
+.column-left h2 {
+  text-align: center;
+}
+
+.contacts ul {
+  list-style: none;
+}
+
+.contacts li {
+  padding: 5px;
+}
+
+.contacts li img {
+  vertical-align: middle;
+  margin-right: 5px;
+}
+
+.contacts li p {
+  display: inline;
+  vertical-align: middle;
+}
+
+.language {
+  font-weight: bold;
+  margin: 0;
+}
+
+.languages p {
+  margin-block-start: 5;
+  margin-block-end: 5;
+}
+
+.note {
+  font-weight: lighter;
+  font-style: italic;
+  padding-left: 20px;
+}
+
+.education p {
+  vertical-align: middle;
+  padding-left: 20px;
+  padding-bottom: 5px;
+}
+
+.column-right {
+  width: 80%;
+  padding: 30px;
+}
+
+.sub-header {
+  background-color: var(--gray-color);
+  padding: 10px;
+  margin-bottom: 20px;
+}
+
+.sub-header img {
+  vertical-align: middle;
+}
+
+.sub-header h3 {
+  display: inline-block;
+  /* padding: 10%; */
+  padding-left: 10px;
+  vertical-align: middle;
+  margin: auto;
+}
+
+tr {
+  height: 150%;
+}
+
+td {
+  inline-block;
+  padding: 10;
+}
+
+.table-even-row {
+  background-color: var(--gray-color);
+}
+
+pre {
+  margin: auto;
+  font-family: monospace;
+  background-color: #2b2b2e;
+  font-weight: lighter;
+  color: #ffffff;
+}
+
+code {
+  margin: 10;
+  padding: 0;
+border: 10;
+}
+
+footer {
+  display: flex;
+  padding: 20px;
+  padding-right: 100px;
+  padding-left: 100px;
+  margin-top: 40px;
+  justify-content: space-between;
+  align-items: center;
+  font-size: 0.9em;
+  background-color: var(--gray-color);
+}
+
+footer a {
+  display: inline-block;
+  align-items: center;
+  vertical-align: middle;
+}
+
+footer a img {
+  margin: auto;
+  vertical-align: middle;
+  padding: 10px;
+}
+
+footer p {
+  display: inline-block;
+  padding-left: 10px;
+}
