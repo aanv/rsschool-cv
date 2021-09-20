@@ -49,6 +49,7 @@ header h1 {
 
 .column-left h2 {
   text-align: center;
+  margin-top: 30px;
 }
 
 .contacts ul {
@@ -75,8 +76,8 @@ header h1 {
 }
 
 .languages p {
-  margin-block-start: 5;
-  margin-block-end: 5;
+  margin-block-start: 10px;
+  margin-block-end: 10px;
 }
 
 .note {
@@ -114,7 +115,7 @@ header h1 {
 }
 
 table {
-  margin-bottom: 30px;
+  margin-bottom: 10px;
 }
 
 tr {
@@ -122,7 +123,7 @@ tr {
 }
 
 td {
-  padding: 10;
+  padding: 5px;
 }
 
 .table-even-row {
@@ -141,7 +142,6 @@ pre {
 code {
   margin: 0;
   padding: 0;
-  border: 10;
 }
 
 footer {
